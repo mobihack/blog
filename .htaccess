@@ -1,0 +1,20 @@
+#SHATTER_CMS
+
+#Options +FollowSymlinks
+#Options +Indexes
+
+#* Starting URL rewrite_module *#
+RewriteEngine on
+#RewriteBase /
+
+#* using htacces for url formating *#
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+
+#* Deny access to system files *#
+#<Files ~ ".(dat|pai|tpl|ini|htaccess|htpasswd)$|(dir|file|header|footer|config|_init|data|init|func).php$|(act|can)_(.*?)\.php$">
+#Order allow,deny
+#Deny from All
+#Satisfy All
+#</Files>

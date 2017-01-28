@@ -1,0 +1,67 @@
+ul.pager li > span,.pager li > a{
+    padding: 12px 20px;
+}
+
+.site-heading img.user-img{
+    border-radius: 50%; height: 10em;width: 10em;
+}
+#side-menu > li > span{
+    color: #5e5e5e;
+    font-size: 1.5em;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.custom-pill-color-primary{
+ background-color: blue;
+}
+soon{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+@media (max-width:768px) {
+    .add-top-margin-mobile{
+        margin-top: 0.5em;
+    }
+}
+.dropdown-user .user-media{
+    padding: 5px 10px;
+}
+.dropdown-user{
+    min-width: 20em;
+}
+.navbar-brand .fa {
+    border-radius: 50%;
+    border: 2px solid #337ab7;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: -3px;
+
+
+    color: white;
+    animation: 3s infinite brand-anim;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s
+}
+
+@keyframes brand-anim {
+    0% {
+        color: white;
+        border: 2px solid #337ab7;
+    }
+    50% {
+        color: #337ab7;
+        border: 2px solid white;
+    }
+    100% {
+        color: white;
+        border: 2px solid #337ab7;
+    }
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
